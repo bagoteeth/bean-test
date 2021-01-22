@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="userBean" class="java/com/jrf/beantest/config/UserBean">
+        <property name="userId" value="001"></property>
+        <property name="userName" value="teeth"></property>
+        <property name="age" value="99"></property>
+        <property name="level" value="1"></property>
+    </bean>
+</beans>
